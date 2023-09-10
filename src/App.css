@@ -1,54 +1,61 @@
-#root, html, body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    box-sizing: border-box;
+#root,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
 }
 
 .app {
-    height: 100%;
-    color: rgb(33, 88, 33);
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./images/pic1.png');
-    /* background-size: cover;
+  height: 100%;
+  color: rgb(33, 88, 33);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/pic1.png");
+  /* background-size: cover;
     background-position: center; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .card {
-    background-color: whitesmoke;
-    width: 40%;
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 25px;
-    padding: 2%;
-    box-shadow: 10px 10px;
+  background-color: whitesmoke;
+  width: 40%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 25px;
+  padding: 2%;
+  box-shadow: 10px 10px;
 }
 
 .heading {
-    display: flex;
-    align-items: center;
-    height: 580px;
+  display: flex;
+  align-items: center;
+  height: 580px;
 }
 
 .button {
-    position: relative;
-    outline: none;
-    text-decoration: none;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    text-transform: uppercase;
-    height: 200px;
-    width: 210px;
-    opacity: 1;
-    background-color: #ffffff;
-    border: 1px solid rgba(22, 76, 167, 0.6);
+  position: relative;
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 200px;
+  width: 210px;
+  opacity: 1;
+  background-color: #ffffff;
+  border: 1px solid rgba(22, 76, 167, 0.6);
+}
+span {
+  font-weight: 700;
+  color: darkolivegreen;
 }
