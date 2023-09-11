@@ -21,7 +21,7 @@ body {
 }
 
 .card {
-  background-color: whitesmoke;
+  background-color: rgb(202, 173, 148);
   width: 40%;
   height: 20%;
   display: flex;
@@ -52,8 +52,8 @@ body {
   height: 200px;
   width: 210px;
   opacity: 1;
-  background-color: #ffffff;
-  border: 1px solid rgba(22, 76, 167, 0.6);
+  background-color: #a1d893;
+  border: 3px solid rgba(68, 167, 22, 0.6);
 }
 span {
   font-weight: 700;
