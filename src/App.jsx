@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
-
 import "./App.css";
+import Mouse from "./mouse/mouse.jsx";
 
 class App extends React.Component {
   state = { advice: "" };
@@ -26,14 +26,17 @@ class App extends React.Component {
   render() {
     const { advice } = this.state;
     return (
-      <div className="app">
-        <div className="card">
-          <h1 className="heading">{advice}</h1>
-          <button className="button" onClick={this.fetchAdvice}>
-            <span>GIVE ME ADVICE</span>
-          </button>
+      <>
+        <Mouse />
+        <div className="app">
+          <div className="card">
+            <h1 className="heading">{advice}</h1>
+            <button className="button" onClick={this.fetchAdvice}>
+              <span>GIVE ME ADVICE</span>
+            </button>
+          </div>
         </div>
-      </div>
+      </>
     );
   }
 }
