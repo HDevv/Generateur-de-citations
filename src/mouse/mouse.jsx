@@ -6,7 +6,7 @@ const mouse = () => {
     <AnimatedCursor
       innerSize={10}
       outerSize={8}
-      color="193, 11, 111"
+      color="197,226,207" // RGB
       outerAlpha={0.2}
       innerScale={0.7}
       outerScale={5}
