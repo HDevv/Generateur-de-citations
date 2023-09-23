@@ -4,7 +4,7 @@ import AnimatedCursor from "react-animated-cursor";
 const mouse = () => {
   return (
     <AnimatedCursor
-      innerSize={10}
+      innerSize={15}
       outerSize={8}
       color="197,226,207" // RGB
       outerAlpha={0.2}
